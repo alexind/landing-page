@@ -2,6 +2,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
 }
@@ -18,6 +20,8 @@ body {
   display: flex;
   justify-content: space-around;
   justify-self: flex-start;
+  align-items: center;
+  padding: 10px;
 }
 
 .header h4 {
@@ -54,6 +58,7 @@ body {
 
 .row {
   flex: 0 1 450px;
+  max-height: 250px;
 }
 
 .row img {
@@ -65,14 +70,12 @@ body {
   font-size: 48px;
   font-weight: 900;
   margin: 0;
-  text-align: center;
   color: #f9faf8;
 }
 
 .rows .awesome-website p {
   font-size: 18px;
   color: #e5e7eb;
-  text-align: center;
   margin: 0;
 }
 
@@ -80,16 +83,66 @@ body {
   background-color: #3882f6;
   color: white;
   border: none;
-  padding: 8px 20px;
+  padding: 0.5rem 2rem;
   font-size: 14px;
   font-weight: 700;
   border-radius: 6px;
   cursor: pointer;
 }
 
-.second-section {
-}
-
 .third-section {
   background-color: #e5e7eb;
+}
+
+.fourth-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.action {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+  padding: 2rem 10rem;
+  border-radius: 6px;
+}
+
+.left h4 {
+  color: #f9faf8;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.left p {
+  color: #f9faf8;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.right button {
+  border: 1.5px solid #f9faf8;
+  background-color: #3882f6;
+  color: white;
+  padding: 0.25rem 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-end;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #f9faf8;
 }

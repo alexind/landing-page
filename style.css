@@ -21,7 +21,7 @@ body {
   justify-content: space-around;
   justify-self: flex-start;
   align-items: center;
-  padding: 0.75rem 10rem 0 10rem;
+  padding: 0.75rem 18rem 0 18rem;
 }
 
 .header h4 {
@@ -35,7 +35,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 10px;
+  gap: 14px;
 }
 
 .header ul a {
@@ -130,6 +130,30 @@ body {
 
 .third-section {
   background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  max-width: 50rem;
+  padding: 5rem;
+}
+
+.text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.quote p {
+  font-size: 18px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 0;
+  text-align: end;
+  padding: 0 2rem;
 }
 
 .fourth-section {
@@ -178,6 +202,7 @@ body {
   align-items: center;
   justify-content: center;
   justify-self: flex-end;
+  padding: 1rem 0;
 }
 
 .footer p {
